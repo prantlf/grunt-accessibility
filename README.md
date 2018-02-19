@@ -1,25 +1,27 @@
-# Grunt Accessibility
+# Grunt Accessibility Extended
 
-[![NPM version](https://img.shields.io/npm/v/grunt-accessibility.svg)](https://www.npmjs.com/package/grunt-accessibility)
-[![Build Status](https://travis-ci.org/yargalot/grunt-accessibility.svg?branch=master)](https://travis-ci.org/yargalot/grunt-accessibility)
-[![Build status](https://ci.appveyor.com/api/projects/status/d22xg9fog68bift2?svg=true)](https://ci.appveyor.com/project/yargalot/grunt-accessibility)
-[![Dependency Status](https://img.shields.io/david/yargalot/grunt-accessibility.svg)](https://david-dm.org/yargalot/grunt-accessibility)
-[![devDependency Status](https://img.shields.io/david/dev/yargalot/grunt-accessibility.svg)](https://david-dm.org/yargalot/grunt-accessibility#info=devDependencies)
+[![NPM version](https://img.shields.io/npm/v/grunt-accessibility-ext.svg)](https://www.npmjs.com/package/grunt-accessibility-ext)
+[![Build Status](https://travis-ci.org/prantlf/grunt-accessibility.svg?branch=master)](https://travis-ci.org/prantlf/grunt-accessibility)
+[![Build status](https://ci.appveyor.com/api/projects/status/d22xg9fog68bift2?svg=true)](https://ci.appveyor.com/project/prantlf/grunt-accessibility)
+[![Dependency Status](https://img.shields.io/david/prantlf/grunt-accessibility.svg)](https://david-dm.org/prantlf/grunt-accessibility)
+[![devDependency Status](https://img.shields.io/david/dev/prantlf/grunt-accessibility.svg)](https://david-dm.org/prantlf/grunt-accessibility#info=devDependencies)
 [![Built with Grunt](https://cdn.gruntjs.com/builtwith.svg)](http://gruntjs.com/)
 
-Uses [AccessSniff](https://github.com/yargalot/AccessSniff) and [HTML Codesniffer](http://github.com/squizlabs/HTML_CodeSniffer) to grade your site's accessibility using different levels of the WCAG guidelines
+Uses [AccessSniff](https://github.com/prantlf/AccessSniff) and [HTML Codesniffer](http://github.com/squizlabs/HTML_CodeSniffer) to grade your site's accessibility using different levels of the WCAG guidelines
 
-![Grunt Accessibility example](https://raw.githubusercontent.com/yargalot/AccessSniff/master/img/example.png)
+This fork writes the report, even if errors are detected in input files.
+
+![Grunt Accessibility example](https://raw.githubusercontent.com/prantlf/AccessSniff/master/img/example.png)
 
 
 ## Getting Started
 
-Install this grunt plugin next to your project's [grunt.js gruntfile][getting_started] with: `npm install grunt-accessibility`
+Install this grunt plugin next to your project's [grunt.js gruntfile][getting_started] with: `npm install grunt-accessibility-ext`
 
 Then add this line to your project's `grunt.js` gruntfile:
 
 ```js
-grunt.loadNpmTasks('grunt-accessibility');
+grunt.loadNpmTasks('grunt-accessibility-ext');
 ```
 
 [grunt]: http://gruntjs.com/
@@ -50,7 +52,7 @@ You can link to the files you wish to lint using the grunt api. The result will 
 
 ## Options
 
-View [AccessSniff](https://github.com/yargalot/AccessSniff) options for all available options.
+View [AccessSniff](https://github.com/prantlf/AccessSniff) options for all available options.
 
 
 ## Contributing

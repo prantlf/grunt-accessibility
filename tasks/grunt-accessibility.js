@@ -4,7 +4,7 @@
 
 module.exports = function(grunt) {
 
-  var accessSniff = require('access-sniff');
+  var accessSniff = require('access-sniff-ext');
 
   grunt.registerMultiTask('accessibility', 'Use HTML codesniffer to grade accessibility', function() {
 

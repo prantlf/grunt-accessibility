@@ -1,15 +1,15 @@
 {
-  "name": "grunt-accessibility",
+  "name": "grunt-accessibility-ext",
   "description": "Grade your site's accessibility and generate a report from different WCAG levels",
-  "version": "5.0.0",
-  "homepage": "https://github.com/yargalot/grunt-accessibility",
+  "version": "6.0.0",
+  "homepage": "https://github.com/prantlf/grunt-accessibility",
   "author": "Steven John Miller (http://www.stevenjohnmiller.com/)",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yargalot/grunt-accessibility.git"
+    "url": "git+https://github.com/prantlf/grunt-accessibility.git"
   },
   "bugs": {
-    "url": "https://github.com/yargalot/grunt-accessibility/issues"
+    "url": "https://github.com/prantlf/grunt-accessibility/issues"
   },
   "license": "MIT",
   "main": "tasks/grunt-accessibility.js",
@@ -21,7 +21,7 @@
     "test": "grunt test"
   },
   "dependencies": {
-    "access-sniff": "^3.0.0"
+    "access-sniff-ext": "^4.0.0"
   },
   "devDependencies": {
     "grunt": "^1.0.0",
