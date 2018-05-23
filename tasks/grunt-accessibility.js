@@ -16,6 +16,7 @@ module.exports = function(grunt) {
     function writeReport(report) {
       if (options.reportLocation) {
         accessSniff.report(report, {
+          errorLevels: options.errorLevels,
           reportLocation: options.reportLocation,
           reportType: options.reportType
         });

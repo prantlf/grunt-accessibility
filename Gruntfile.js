@@ -112,6 +112,14 @@ module.exports = function(grunt) {
         },
         src: ['errors/**/*.html']
       },
+      errorNoFailure: {
+        options: {
+          errorLevels: {
+            warning: true
+          }
+        },
+        src: ['errors/**/*.html']
+      },
       errorContinue: {
         options: {
           reportType: 'json',
@@ -134,6 +142,7 @@ module.exports = function(grunt) {
   grunt.registerTask('node',  ['nodeunit', 'clean']);
   grunt.registerTask('self',  ['accessibility:txt', 'accessibility:json',
     'accessibility:csv', 'accessibility:noOutput', 'accessibility:error',
+    'accessibility:errorNoFailure',
     // Let the task fail without failing this whole build.
     'continue:on', 'accessibility:errorContinue', 'continue:off',
     // Check that there was a failure caused by grunt.fail.warn.
