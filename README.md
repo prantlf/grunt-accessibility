@@ -2,7 +2,6 @@
 
 [![NPM version](https://img.shields.io/npm/v/grunt-accessibility-ext.svg)](https://www.npmjs.com/package/grunt-accessibility-ext)
 [![Build Status](https://travis-ci.org/prantlf/grunt-accessibility.svg?branch=master)](https://travis-ci.org/prantlf/grunt-accessibility)
-[![Build status](https://ci.appveyor.com/api/projects/status/d22xg9fog68bift2?svg=true)](https://ci.appveyor.com/project/prantlf/grunt-accessibility)
 [![Dependency Status](https://img.shields.io/david/prantlf/grunt-accessibility.svg)](https://david-dm.org/prantlf/grunt-accessibility)
 [![devDependency Status](https://img.shields.io/david/dev/prantlf/grunt-accessibility.svg)](https://david-dm.org/prantlf/grunt-accessibility#info=devDependencies)
 [![Built with Grunt](https://cdn.gruntjs.com/builtwith.svg)](http://gruntjs.com/)
